@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="/assets/icons/Google.png" type="image/x-icon">
+    <!--CSS-->
+    <link rel="stylesheet" href="styles/app.css">
+    <link rel="stylesheet" href="styles/glutch_icons.css">
+    <!--JAVASCRIPT-->
+    <script src="/scripts/dynamics.js" defer></script>
+    <script src="/scripts/menu.js" defer></script>
+    <script src="/scripts/scrollSpy.js" defer></script>
+    <script src="/scripts/knowledgeSpy.js" defer></script>
+    <script src="/scripts/themeSwitcher.js" defer></script>
+    <script src="/scripts/credits.js" defer></script>
+    <title>Deltour Hugo</title>
+</head>
+<body>
+    <!--NAVIGATION-->
+    <nav class="navbar">
+        <label class="nav__title highlight">Deltour Hugo</label>
+        <div id="nav__menu">
+            <svg x="8" y="0" width="40px" height="40px" viewBox="0 0 40 40">
+                <circle cx="20" cy="20" r="18"></circle>
+            </svg>
+            <span></span>
+        </div>
+    </nav>
+    <!--NAVIGATION END-->
+
+    <!--CONTENT-->
+    <main>
+        <!--HOME-->
+        <section id="home" data-spy>
+            <div class="home">
+                <h1 class="home__title">Hello,<br>I'm <span class="highlight">Hugo</span>.</h1>
+                <p class="text-muted">Étudiant à l'ESGI,<br>Développeur WEB</p>
+            </div>
+            <div class="home__image">
+                <img src="/assets/imgs/profile.jpg" alt="Hugo's head" class="home__image--img">
+            </div>
+            <a href="#knowledge"><div class="home__scrollDown"><i class="home__scrollDown--path gi-arrow_down"></i></div></a>
+        </section>
+        
+        <!--ABOUT-->
+        <section id="about" data-spy>
+            <div class="about__presentation">
+                <h1 class="about__presentation--title highlight">Qui suis-je ?</h1>
+                <p class="about__presentation--text">Passionné par le développement WEB depuis mes 14 ans,
+                    je me forme maintenant au métier de développeur WEB.
+                    Cela fait maintenant 3 ans que je code à temps partiel entre
+                    mes différentes activités tels que le badminton et la guitare que je pratique depuis
+                    6 ans. Je suis titulaire du brevet, du bac et du BIA
+                    (Brevet d'initiation à l'aéronautique) que j'ai tous les trois obtenus
+                    "Mention Très Bien". Pour le moment je suis plus compétent dans le
+                    FrontEnd et je cherche à encore me former aux aspects du WEB tels que
+                    le BackEnd ou l'UX et l'UI.</p>
+            </div>
+        </section>
+        
+        <!--KNOWLEGE-->
+        <section id="knowledge" data-spy>
+            <div class="knowledge">
+                <h1 class="knowledge__title">Mes compétences :</h1>
+                <div class="knowledge__container">
+                    <div class="knowledge__card">
+                        <img class="card__image" src="./assets/icons/HTML.png" alt="HTML Logo">
+                        <p class="card__text">H.T.M.L</p>
+                        <span class="card__knowledge" data-progress="100"></span>
+                    </div>
+                    <div class="knowledge__card">
+                        <img class="card__image" src="./assets/icons/CSS.svg" alt="CSS Logo">
+                        <p class="card__text">C.S.S</p>
+                        <span class="card__knowledge" data-progress="90"></span>
+                    </div>
+                    <div class="knowledge__card">
+                        <img class="card__image" src="./assets/icons/JavaScript.svg" alt="JavaScript Logo">
+                        <p class="card__text">JavaScript</p>
+                        <span class="card__knowledge" data-progress="60"></span>
+                    </div>
+                    <div class="knowledge__card">
+                        <img class="card__image" src="./assets/icons/React.svg" alt="React Logo">
+                        <p class="card__text">React</p>
+                        <span class="card__knowledge" data-progress="40"></span>
+                    </div>
+                    <div class="knowledge__card">
+                        <img class="card__image" src="./assets/icons/NodeJS.svg" alt="NodeJS Logo">
+                        <p class="card__text">NodeJS</p>
+                        <span class="card__knowledge" data-progress="20"></span>
+                    </div>
+                    <div class="knowledge__card">
+                        <img class="card__image" src="./assets/icons/PHP.svg" alt="PHP Logo">
+                        <p class="card__text">P.H.P</p>
+                        <span class="card__knowledge" data-progress="50"></span>
+                    </div>
+                    <div class="knowledge__card">
+                        <img class="card__image" src="./assets/icons/MySQL.svg" alt="Mysql Logo">
+                        <p class="card__text">MySQL</p>
+                        <span class="card__knowledge" data-progress="50"></span>
+                    </div>
+                    <div class="knowledge__card">
+                        <img class="card__image" src="./assets/icons/Git.png" alt="Git Logo">
+                        <p class="card__text">Outils GIT</p>
+                        <span class="card__knowledge" data-progress="10"></span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--WORK-->
+        <section id="work" data-spy>
+            <div class="work">
+                <h1 class="work__title highlight">Mes réalisations :</h1>
+            </div>
+        </section>
+
+        <!--STATS-->
+        <section id="stats" data-spy>
+            <div class="stats">
+                <h1 class="stats__title highlight">Quelques statistiques :</h1>
+            </div>
+        </section>
+
+        <!--CONTACT-->
+        <section id="contact" data-spy>
+            <div class="contact">
+                <h1 class="contact__title highlight">Me contacter :</h1>
+                <div class="contact__container">
+                    <div class="contact__card">
+                        <img class="card__image" src="/assets/icons/GMail.png" alt="Logo de GMail">
+                        <p class="card__title">Mon E-Mail :</p>
+                        <p class="card__text">hugodeltour.pro@gmail.com</p>
+                    </div>
+                    <div class="contact__card">
+                        <img class="card__image" src="/assets/icons/Twitter.png" alt="Logo de Twitter">
+                        <p class="card__title">Mon Twitter :</p>
+                        <p class="card__text"><a href="https://twitter.com/Deltour_Hugo" target="_blank">@Deltour_Hugo</a></p>
+                    </div>
+                    <div class="contact__card">
+                        <img class="card__image" src="/assets/icons/Google.png" alt="Icône de téléphone">
+                        <p class="card__title">Mon Téléphone :</p>
+                        <p class="card__text">07.69.09.76.11</p>
+                    </div>
+                    <div class="contact__card">
+                        <img class="card__image" src="/assets/icons/GitHub.png" alt="Logo de GMail">
+                        <p class="card__title">Mon Discord :</p>
+                        <p class="card__text">https://discord.gg/</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--SIDEBAR-->
+        <aside class="menu">
+            <div class="menu__container">
+                <a href="#home" class="menu__item animated__link">Accueil</a>
+                <a href="#about" class="menu__item animated__link">À propos</a>
+                <a href="#knowledge" class="menu__item animated__link">Compétences</a>
+                <a href="#work" class="menu__item animated__link">Travaux</a>
+                <a href="#stats" class="menu__item animated__link">Statistiques</a>
+                <a href="#contact" class="menu__item animated__link">Contacts</a>
+            </div>
+            <svg id="menu__wave" class="menu__wave" width="100%" height="100vh" viewBox="0 0 200 900" version="1.1" preserveAspectRatio="none">
+                <path d="M200,0c0,0 -200,46.405 -200,177c0,130.595 126.228,90.241 149,287c22.772,196.759 51,436 51,436l32,0l-4,-900l-28,0Z" 
+                data-to="M0,0c0,0 0,46.405 0,177c0,130.595 1.152,98.101 0,296c-1.153,198.07 0,427 0,427l200,0l0,-900l-200,0Z"/>
+            </svg>
+        </aside>
+        <!--SIDEBAR END-->
+    </main>
+    <!--CONTENT END-->
+
+    <hr class="footer__separator">
+
+    <!--FOOTER-->
+    <footer>
+        <!--SOCIALS MEDIA-->
+        <div class="socials">
+            <a href="https://twitter.com/Deltour_Hugo" target="_blank"><img src="./assets/icons/Twitter.png" alt="Twitter icon"></a>
+            <a href="https://github.com/deltour-hugo" target="_blank"><img src="./assets/icons/GitHub.png" alt="GitHub icon"></a>
+            <a href="#" target="_blank"><img src="./assets/icons/Google.png" alt="Icône Discord"></a>
+        </div>
+        <!--CREDITS-->
+        <span class="credits" id="credits">&copy; Deltour Hugo</span>
+        <!--THEME SWITCHER-->
+        <div class="themeSwitcher">
+            <input type="checkbox" id="dark-mode-toggle">
+            <label class="dark-mode-toggle__label" for="dark-mode-toggle">
+            <div class="ball"></div>
+        </div>
+    </footer>
+    <!--FOOTER END-->
+</body>
+</html>

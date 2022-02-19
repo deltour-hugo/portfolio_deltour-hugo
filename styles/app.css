@@ -197,10 +197,6 @@ svg {
     z-index: 5;
 }
 
-body.has-menu .menu {
-    box-shadow: rgba(0, 0, 0, 0.35) -5px 3px 3px;
-}
-
 .menu .menu__container {
     position: fixed;
     top: 0;
@@ -239,7 +235,7 @@ body.has-menu .menu {
     bottom: 0;
     height: 100%;
     width: 100%;
-    fill: var(--color-lighter);
+    fill: var(--color-contrast);
     stroke: none;
     z-index: -2;
 }
@@ -262,6 +258,7 @@ section {
     justify-content: center;
     background: var(--color-lighter);
     color: var(--color-darker);
+    border-bottom: 2px solid var(--color-contrast);
 }
 
 .striped {
@@ -411,6 +408,7 @@ main {
 
 #contact {
     padding: 70px 50px;
+    border-bottom: none;
 }
 
 .contact__title {
